@@ -49,6 +49,12 @@ Finally, a second algorithm is created and the same process is repeated to evalu
 
 ---
 
+## Results
+
+Thwe results from the testing show that neither the initial trading algorithm nor the second trading algorithm were able to generate a return that surpassed the actual return of the asset. This is most likely because the given time period used to train the model was based on the early months of the year 2020 (before covid), and the testing period for the model included the subsequent years. As a result, the model was trained based exclusively on pre-covid data, leaving it unprepared for the massive impact the pandemic would have on the equity market.
+
+---
+
 ## Contributors
 
 * Nicklaus Danialy nickdanialy@gmail.com 
